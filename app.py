@@ -163,7 +163,7 @@ def convert_to_excel(df, report_type):
         write_side_block(25, "Powered by Systematik", 
                          "Full-stack data agency for ecommerce brands ($5M-$100M).")
         
-        write_side_block(28, "Visit our website", "systematikdata.com", link="https://systematikdata.com")
+        write_side_block(28, "Visit our website", "systematikdata.com", link="https://go.systematikdata.com/ZA4N87")
 
         worksheet.column_dimensions['J'].width = 70
         for col in ['F', 'G', 'H', 'I']: worksheet.column_dimensions[col].width = 5
@@ -195,9 +195,10 @@ with st.sidebar:
 </div>
 <p style="margin-bottom: 5px; color: #1A1A1A; font-weight: 700;">Free resources:</p>
 <ul style="margin-top: 0;">
-<li><a href="https://systematikdata.com">Automated GA4 Audit</a></li>
-<li><a href="https://systematikdata.com">Data Strategy Guide</a></li>
+<li><a href="https://go.systematikdata.com/y4GdSj">Product Mix Analyzer</a></li>
+<li><a href="https://go.systematikdata.com/rvisGJ">Data Strategy Guide</a></li>
 <li><a href="https://systematikdata.com">Looker Studio Templates</a></li>
+<li><a href="https://go.systematikdata.com/IyBNYV">See all..</a></li>
 </ul>
 <p style="margin-bottom: 5px; color: #1A1A1A; font-weight: 700;">Need a custom build?</p>
 <a href="mailto:{APP_CONFIG['brand_email']}">{APP_CONFIG['brand_email']}</a>
@@ -340,4 +341,5 @@ if uploaded_file:
                 excel_data, 
                 "customer_demographics_enriched.xlsx", 
                 "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+
             )
