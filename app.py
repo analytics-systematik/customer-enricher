@@ -193,7 +193,7 @@ with st.sidebar:
 <div style="background-color: #F2E6FF; padding: 12px; border-radius: 6px; margin-bottom: 15px;">
 <p style="margin: 0; color: #1A1A1A; font-weight: 600;">{APP_CONFIG['brand_info']}</p>
 </div>
-<p style="margin-bottom: 5px; color: #1A1A1A; font-weight: 700;">Free resources:</p>
+<p style="margin-bottom: 5px; color: #1A1A1A; font-weight: 700;">Other free resources:</p>
 <ul style="margin-top: 0;">
 <li><a href="https://go.systematikdata.com/y4GdSj">Product Mix Analyzer</a></li>
 <li><a href="https://go.systematikdata.com/rvisGJ">Data Strategy Guide</a></li>
@@ -343,4 +343,5 @@ if uploaded_file:
                 "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
 
             )
+
 
