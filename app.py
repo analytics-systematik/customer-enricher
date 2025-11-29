@@ -197,7 +197,7 @@ with st.sidebar:
 <ul style="margin-top: 0;">
 <li><a href="https://go.systematikdata.com/y4GdSj">Product Mix Analyzer</a></li>
 <li><a href="https://go.systematikdata.com/rvisGJ">Data Strategy Guide</a></li>
-<li><a href="https://systematikdata.com">Looker Studio Templates</a></li>
+<li><a href="https://go.systematikdata.com/2Anwgg">Looker Studio Templates</a></li>
 <li><a href="https://go.systematikdata.com/IyBNYV">See all..</a></li>
 </ul>
 <p style="margin-bottom: 5px; color: #1A1A1A; font-weight: 700;">Need a custom build?</p>
@@ -343,3 +343,4 @@ if uploaded_file:
                 "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
 
             )
+
