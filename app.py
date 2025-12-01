@@ -149,18 +149,22 @@ def convert_to_excel(df, report_type):
                          "We have matched your customer Zip Codes against the US Census Bureau database. You now have the Median Household Income, Median Age, and Total Population for the area where each customer lives.")
         
         write_side_block(8, "2. Actionable strategies", 
-                         "• Build 'High earner' segments: Filter this list for Income > $100k. Upload this segment to Meta/Google as a Custom Audience for your premium products.\n"
-                         "• Adjust creative strategy: If your Median Age is higher than expected (e.g., 45+), test creative that resonates with an older demographic rather than Gen Z trends.\n"
-                         "• Geographic targeting: Identify which specific Zip codes yield your highest value customers and bid more aggressively in those locations.")
+                         "**• Build 'High earner' segments:** Filter this list for Income > $100k. Upload this segment to Meta/Google as a Custom Audience for your premium products.\n"
+                         "**• Adjust creative strategy:** If your Median Age is higher than expected (e.g., 45+), test creative that resonates with an older demographic rather than Gen Z trends.\n"
+                         "**• Geographic targeting:** Identify which specific Zip codes yield your highest value customers and bid more aggressively in those locations.")
         
-        write_side_block(16, "3. Important caveats", 
+        write_side_block(12, "3. Important caveats", 
                          "• Geographic Enrichment: This describes the neighborhood profile, not individual credit data.\n"
                          "• Match Rates: Zip codes for PO Boxes or large commercial buildings may not have Census data (showing as N/A).")
         
-        write_side_block(21, "4. Need deeper analysis?", 
+        write_side_block(16, "4. Need deeper analysis?", 
                          "This is just the start. We can help you calculate Customer Lifetime Value (LTV) by demographic segment to see exactly how much 'High Income' customers are actually worth to your brand.")
         
-        write_side_block(25, "Powered by Systematik", 
+        write_side_block(20, "5. More free tools & resources", 
+                         "Get our automated GA4 audit, Data Strategy Guide, and Looker Studio templates.", 
+                         link="https://go.systematikdata.com/DtiYck")
+
+        write_side_block(24, "Powered by Systematik", 
                          "Full-stack data agency for ecommerce brands ($5M-$100M).")
         
         write_side_block(28, "Visit our website", "systematikdata.com", link="https://go.systematikdata.com/ZA4N87")
@@ -343,5 +347,6 @@ if uploaded_file:
                 "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
 
             )
+
 
 
